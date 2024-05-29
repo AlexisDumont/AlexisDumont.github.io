@@ -1,3 +1,5 @@
+
+
 header {
     background-color: #03182e;
     margin: -0.9% -0.5%;
@@ -187,9 +189,6 @@ aside p  {
 {
     align-self: flex-start;
 }
-
-
-
 @media screen and (max-width: 1100px) and (min-width: 300px) { 
 
         section #main-aside{
@@ -197,11 +196,18 @@ aside p  {
             flex-direction: column-reverse;
         }
 
-        body article section nav{
-            width: 500px;
-            height: 100px;
-            margin: 20px auto;
-            max-width: calc(100% - 20px);
+        .navdesk {
+            display: none;
+        }
+
+        main {
+            max-width: 90%;
         }
      
+}
+
+@media screen and (min-width:1101px) { 
+    .navmob{
+        display: none;
+    }
 }
